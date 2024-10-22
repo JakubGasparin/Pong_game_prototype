@@ -1,0 +1,21 @@
+.audioButton{
+    padding: 10px 25px;
+    font-size: 22px;
+    line-height: 40px;
+    min-width: 150px;
+    text-align: center;
+    cursor: pointer;
+    background-color: gray;    
+    border-radius: 5px;
+    border: 0px;
+    height: 60px;
+    position: absolute;
+    top: 80%;
+    color: black;
+    
+}
+
+.audioButton:hover{
+    background-color: white;
+    color: tan;
+}

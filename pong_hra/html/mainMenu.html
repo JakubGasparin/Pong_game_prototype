@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main menu</title>
+<link rel="stylesheet" href="../css/buttons.css"> 
+<link rel="stylesheet" href="../css/instructions.css">
+<link rel="stylesheet" href="../css/audioButton.css">
+<script src="../js/instructions.js"></script>
+</head>
+<body style="background-color: black;">
+    <h1 class="mainMenuTitle">Main menu</h1>
+    <a href="level1.html" class="a button1">Level 1</a>
+    <a href="level2.html" class="a button2">Level 2</a>
+    <a href="level3.html" class="a button3">Level 3</a>
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>Pong</h1>
+        <p>Instructions</p>
+        <p>Controls: arrow keys: up and down</p>
+        <p>Win by scoring set amount of points before your opponent</p>
+        <p>Level 1: classic pong, first to 10 wins</p>
+        <p>Level 2: two balls instead of 1, first to 10 wins</p>
+        <p>Level 3: AI that will predict the ball bounces and move accordingly. First to 3 wins</p>
+        </div>
+    </div>
+       
+<button class="instructionsButton" onclick="togglePopup()">How to play</button>
+
+<div>
+    <audio id="audio">
+        <source  src="../audio/Wallpaper.mp3" type="audio/mpeg">
+    </audio>
+    <button class="audioButton" id="playPauseBTN" onclick="playPause()">Play &#9658;</button>
+    &nbsp;
+    
+</div>
+<script src="../js/audioButton.js"></script>
+</body>    
+</html>
+
+
+

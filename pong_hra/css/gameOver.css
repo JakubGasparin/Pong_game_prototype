@@ -1,0 +1,26 @@
+.a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 56px;
+    text-align: center;
+
+    border: solid 2px blue;
+    border-radius: 50px;
+
+    padding: 10px 80px;
+  }
+  .a:hover{
+      background-color: white;
+      color: tan;
+  }
+
+  .mainMenuButton{
+    background-color: grey;
+}
+
+.gameOverTitle{
+    font-family: 'Times New Roman', Times, serif;
+      font-weight: 100;
+      color: white
+}
